@@ -1,6 +1,8 @@
-def main():
-    print("Operations racker Starting...")
+from db import create_projects_table
 
-    if __name__ == "__main__":
-        main()
-        
+def main():
+    create_projects_table()
+    print("Project table created succeffully")
+
+if __name__ == "__main__":
+    main()
